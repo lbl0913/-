@@ -4,3 +4,73 @@
     list-style: none;
     text-decoration: none;
 }
+
+/* 找回密码 */
+.headline {
+    width: 100%;
+    height: 0.39rem;
+    border-bottom: 1px solid #aaa;
+    background-color: #fff;
+    line-height: 0.39rem;
+}
+
+.headline p {
+    padding-left: .2rem;
+}
+
+.headline p span:nth-of-type(1) {
+    font-weight: bold;
+}
+
+/* 内容部分 */
+section {
+    width: 100%;
+    height: 2.4rem;
+}
+
+ul {
+    width: 100%;
+    height: 1.5rem;
+}
+
+li {
+    width: 100%;
+    height: 33%;
+    box-sizing: border-box;
+    border-bottom: 1px solid #ccc;
+    background-color: #fff;
+}
+
+li input {
+    width: 100%;
+    height: 100%;
+    padding-left: .2rem;
+    border: none;
+    box-sizing: border-box;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+}
+
+#yzm {
+    width: 1.2rem;
+    height: 0.34rem;
+    color: #666;
+    font-size: .12rem;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    margin: .06rem .2rem 0px 0px;
+}
+
+.btn {
+    width: 3.4rem;
+    height: 0.5rem;
+    margin-top: .2rem;
+    margin-left: .15rem;
+    background-color: #FF8300;
+    color: #fff;
+    border: none;
+    font-size: .18rem;
+}
