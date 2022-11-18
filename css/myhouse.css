@@ -4,3 +4,48 @@
     list-style: none;
     text-decoration: none;
 }
+
+.myhouse {
+    height: 0.36rem;
+    line-height: 0.36rem;
+    background: #ffffff;
+    border-bottom: 1px solid #c5c5c5;
+    padding-left: 0.15rem;
+}
+
+.secondContent {
+    padding: 0 0.2rem;
+    font-size: 0.12rem;
+}
+
+.secondContent li {
+    padding: 0.2rem 0;
+    border-bottom: 1px solid #ff8a00;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.second-left {
+    flex: 1;
+}
+
+.second-left img {
+    width: 0.81rem;
+    height: 0.81rem;
+}
+
+.second-right {
+    flex: 4;
+    margin-left: 0.24rem;
+}
+
+.second-right p {
+    color: #000;
+    line-height: 0.21rem;
+}
+
+.second-right p>strong {
+    color: #ff8a00;
+    float: right;
+}

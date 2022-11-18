@@ -5,18 +5,9 @@
     text-decoration: none;
 }
 
-input {
-    outline: none;
-}
-
-html {
-    font-size: 100px;
-}
-
 body {
     background: #f5f5f5;
     font-size: 0.12rem;
-
 }
 
 header {
@@ -46,6 +37,276 @@ header .icon img {
     margin-left: 0.2rem;
 }
 
+.banner {
+    width: 100%;
+    height: 2.5rem;
+    background: url(../image/index/banner.png) 0 0 no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.sourch {
+    position: absolute;
+    bottom: 0.1rem;
+    left: 0.15rem;
+}
+
+.sourch>.icon {
+    position: absolute;
+    left: 0.1rem;
+    bottom: 0.11rem;
+    width: 0.165rem;
+    height: 0.165rem;
+    background: url(../image/index/seach.jpg) 0 center no-repeat;
+    background-size: cover;
+    z-index: 2;
+}
+
+.search {
+    width: 2.89rem;
+    height: 0.35rem;
+    border-radius: 6px;
+    padding-left: 0.33rem;
+}
+
+.navList {
+    width: 100%;
+
+}
+
+.navList>ul {
+    height: 1.1rem;
+    background: #ff8a00;
+    font-size: 0.12rem;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.navList>ul li {
+    width: 0.55rem;
+    height: 0.54rem;
+    margin-top: 0.18rem;
+}
+
+.navList>ul li a {
+    color: #fff;
+    width: 0.55rem;
+    display: inline-block;
+    padding-top: 0.6rem;
+    text-align: center;
+}
+
+.navList>ul li:nth-of-type(1) a {
+    background: url(../image/index/index_03.png) 0 0 no-repeat;
+    background-size: contain;
+}
+
+.navList>ul li:nth-of-type(2) a {
+    background: url(../image/index/index_05.png) 0 0 no-repeat;
+    background-size: contain;
+}
+
+.navList>ul li:nth-of-type(3) a {
+    background: url(../image/index/index_07.png) 0 0 no-repeat;
+    background-size: contain;
+}
+
+.navList>ul li:nth-of-type(4) a {
+    background: url(../image/index/index_09.png) 0 0 no-repeat;
+    background-size: contain;
+}
+
+.banner2 {
+    width: 100%;
+    padding: 0.1rem 0;
+}
+
+.banner2>img {
+    width: 100%;
+}
+
+.hothouse {
+    margin-bottom: 0.05rem;
+    font-size: 0.16rem;
+    background: #ffffff;
+}
+
+.hothouse>h2 {
+    background: #ff8a00;
+    color: #fff;
+    padding: 0.1rem 0 0.08rem 0.2rem;
+}
+
+.hothouse>h2 span {
+    font-size: 0.14rem;
+}
+
+.hothouse>ul {
+    margin: 0 0.2rem;
+}
+
+.hothouse>ul li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.2rem 0;
+    border-bottom: 1px solid red;
+}
+
+.hothouse-img img {
+    width: 0.81rem;
+    height: 0.81rem;
+}
+
+.hothouse-text h3 {
+    width: 1.87rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.hothouse-text p {
+    font-size: 0.12rem;
+    padding: 0.05rem 0;
+    color: #000;
+    overflow: hidden;
+}
+
+.hothouse-text p:nth-of-type(1) span {
+    float: right;
+    color: #ff8a00;
+    font-weight: 700;
+}
+
+.hothouse-text p:nth-of-type(2) {
+    color: #8b8b8b;
+}
+
+.hothouse-text p:nth-of-type(2) span {
+    float: right;
+}
+
+.hothouse-text p>a {
+    color: #849aae;
+    background-color: #f4f7f9;
+    padding: 0.02rem 0.04rem;
+    margin-left: 0.1rem;
+}
+
+.hothouse li:last-of-type {
+    border-bottom: none;
+}
+
+.hotattention {
+    background: #ffffff;
+    border-top: 1px solid #e5e5e5;
+}
+
+.hotattention>ul {
+    display: flex;
+    justify-content: space-around;
+    font-size: 0.18rem;
+    border-bottom: 1px solid #ff8a00;
+    line-height: 0.54rem;
+}
+
+.hotattention>ul li {
+    flex: 1;
+    text-align: center;
+}
+
+.hotattention>ul li a {
+    color: #666666;
+}
+
+.hotattention>ul li:nth-of-type(1) {
+    border-bottom: 1px solid #ff8a00;
+}
+
+.hotattention>ul li:nth-of-type(1) a {
+    color: #ff8a00;
+}
+
+.content {
+    display: flex;
+}
+
+.content ul {
+    flex: 1;
+    text-align: left;
+    margin: 0.12rem 0 0.12rem 0.2rem;
+}
+
+.content ul li {
+    line-height: 0.28rem;
+}
+
+.content ul li a {
+    color: #666666;
+}
+
+/* 固定定位 免费下载 */
+.download {
+    width: 100%;
+    height: 0.5rem;
+    background-color: rgba(0, 0, 0, .5);
+    line-height: 0.5rem;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    padding-left: 0.2rem;
+}
+
+.download .close {
+    width: 0.14rem;
+    height: 0.15rem;
+    position: absolute;
+    top: 0.05rem;
+    left: 0.05rem;
+}
+
+.downleft {
+    display: flex;
+    justify-content: space-around;
+    flex: 6;
+    font-size: 0.12rem;
+    color: #fff;
+}
+
+.downleft-icon>img {
+    width: 0.3rem;
+    height: 0.3rem;
+    margin-top: 0.1rem;
+}
+
+.downleft-text {
+    margin-top: -0.1rem;
+}
+
+.downleft-text p:nth-of-type(1) {
+    height: 0.18rem;
+    font-size: 0.18rem;
+}
+
+.downleft-text p:nth-of-type(2) {
+    height: 0.12rem;
+}
+
+.downright {
+    background: #ff8a00;
+    flex: 4;
+    line-height: 0.5rem;
+    font-size: 0.16rem;
+    text-align: center;
+}
+
+.downright a {
+    color: #fff;
+}
+
+/* 底部 */
 .copyright {
     background: #2f3130;
     color: #939494;
