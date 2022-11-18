@@ -28,7 +28,7 @@ btn[0].onclick = function () {
         localStorage.setItem('pass', input[1].value);
         localStorage.setItem('islogin', true);
         alert('登录成功');
-        window.location.href = 'http://127.0.0.1:5500/%E6%89%BE%E6%88%BF%E6%97%A0%E5%BF%A7/-/myLogin.html';
+        window.location.href = 'http://127.0.0.1:5500/html/%E5%89%8D%E7%AB%AF%E5%AD%A6%E4%B9%A0/%E6%89%BE%E6%88%BF%E6%97%A0%E5%BF%A7/myLogin.html';
     } else {
         alert('账号或密码错误');
     }
@@ -59,7 +59,7 @@ btn[1].onclick = function () {
         localStorage.setItem('user', input[2].value);
         localStorage.setItem('islogin', true);
         alert('登录成功');
-        window.location.href = 'http://127.0.0.1:5500/%E6%89%BE%E6%88%BF%E6%97%A0%E5%BF%A7/-/myLogin.html';
+        window.location.href = 'http://127.0.0.1:5500/html/%E5%89%8D%E7%AB%AF%E5%AD%A6%E4%B9%A0/%E6%89%BE%E6%88%BF%E6%97%A0%E5%BF%A7/myLogin.html';
     } else {
         alert('账号或验证码错误');
     }

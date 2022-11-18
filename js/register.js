@@ -34,7 +34,7 @@ btn.onclick = function () {
         setCookie('phone', phone.value, 20)
         setCookie('pas', password.value, 20)
         alert('注册成功')
-        window.location.href = 'http://127.0.0.1:5500/%E6%89%BE%E6%88%BF%E6%97%A0%E5%BF%A7/-/login.html';
+        window.location.href = 'http://127.0.0.1:5500/html/%E5%89%8D%E7%AB%AF%E5%AD%A6%E4%B9%A0/%E6%89%BE%E6%88%BF%E6%97%A0%E5%BF%A7/login.html';
     } else {
         alert('注册失败，请重新检查是否正确')
     }
